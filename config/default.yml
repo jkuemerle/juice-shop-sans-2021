@@ -73,7 +73,7 @@ application:
       - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'http://localchromeos.owasp-juice.shop' }
 challenges:
   showSolvedNotifications: true
-  showHints: false
+  showHints: true
   showMitigations: true
   showCodeSnippets: never # Options: never  solved  always
   restrictToTutorialsFirst: false
